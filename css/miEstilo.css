@@ -1,0 +1,121 @@
+.box {
+  background-image: url("../images/loaderMickey.png"); }
+
+.pogoSlider-slide {
+  background-image: url(images/slider-01.jpg); }
+
+h1 {
+  font-size: 45px;
+  color: #e91327;
+  font-weight: 600; }
+
+.seccion-box {
+  background: #f7f7f7; }
+
+.testimonios {
+  color: #e91327;
+  padding-bottom: 0; }
+
+/*----------------LOS PARQUES-----------------*/
+#parques {
+  margin-top: 100px; }
+
+#parques .testimonial-item {
+  box-sizing: content-box;
+  padding: 40px;
+  box-shadow: 0px 2px 12px black;
+  position: relative;
+  background: #14b67d; }
+
+#parques .testimonial-item .testimonial-img {
+  width: 150px;
+  border-radius: 150px;
+  float: left;
+  margin: 0 10px 0 0;
+  vertical-align: middle;
+  border: 6px solid #e64747; }
+
+.testimonial-img:hover {
+  transform: scale(1.9); }
+
+#parques .testimonial-item h4 {
+  font-size: 14px;
+  color: #fff;
+  margin: 0; }
+
+#parques .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+  color: #e64747;
+  font-size: 26px; }
+
+#parques p {
+  color: #fff; }
+
+#parques h3 {
+  font-size: 30px;
+  font-family: 'Great Vibes', cursive; }
+
+/*------CONTACTO-------*/
+#contact {
+  margin-top: 150px;
+  margin-bottom: 89px; }
+
+/*-------promociones--------*/
+#promos {
+  margin-top: 160px;
+  margin-bottom: 89px; }
+
+.row-separation {
+  margin-bottom: 20px; }
+
+/*-------Magico----------*/
+.card-separation {
+  margin-right: 20px; }
+
+/*-----Modal-------------*/
+.botonModal {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 1em; }
+
+.modal-body .modal-title {
+  color: black; }
+
+.modal-content {
+  background-color: #fff; }
+
+.btn-warning {
+  color: #fff;
+  background-color: #14b67d;
+  border-color: #14b67d; }
+
+.btn-warning:hover {
+  color: black;
+  background-color: #4adba8;
+  border-color: #4adba8; }
+
+.btn .btn-warning {
+  color: #fff;
+  background-color: #14b67d;
+  border-color: #14b67d; }
+
+.modal-header-new {
+  display: flex;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  border-top-left-radius: calc(.3rem - 1px);
+  border-top-right-radius: calc(.3rem - 1px); }
+
+.modal-footer-new {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding: .75rem;
+  border-bottom-right-radius: calc(.3rem - 1px);
+  border-bottom-left-radius: calc(.3rem - 1px); }

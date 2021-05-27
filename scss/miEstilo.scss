@@ -36,7 +36,7 @@ div .effect-service:hover{
     border: 8px solid #e91327;
 }
 
-.texto-imagen{
+.texto-imagen, .texto-imagen__pr{
     background-color: #e91327;
     position: absolute;
     top: 245px;
@@ -52,6 +52,16 @@ div .effect-service:hover{
     width: 80%;
 }
 
+
+.texto-imagen__dm__{
+    background-color: #e91327;
+    position: absolute;
+    top: 290px;
+    left: 50px;
+    width: 80%;
+}
+
+
 .texto-imagen h2{
     display: flex;
     flex-direction: row;
@@ -65,7 +75,33 @@ div .effect-service:hover{
     text-transform: capitalize;
 }
 
+.texto-imagen__pr h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 10px 0;
+    color: #fff;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 200;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
 .texto-imagen__dm h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 10px 0;
+    color: #fff;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 200;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.texto-imagen__dm__ h2{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -292,7 +328,14 @@ div .effect-service:hover{
         left: 25px;
         width: 80%;
     }
-    .texto-imagen__dm h2, .texto-imagen h2{
+
+    .texto-imagen__pr, .texto-imagen__dm__{
+        top: 172px;
+        left: 25px;
+        width: 80%;
+    }
+
+    .texto-imagen__dm h2, .texto-imagen h2, .texto-imagen__pr h2, .texto-imagen__dm__ h2{
         font-size: 20px;
     }
 
@@ -318,7 +361,7 @@ div .effect-service:hover{
     }
 }
 
-@media screen and (min-width: 400px) and (max-width: 415px) {
+@media screen and (min-width: 401px) and (max-width: 415px) {
     .effect-service{
         width: 385px;
     }
@@ -338,12 +381,20 @@ div .effect-service:hover{
         left: 40px;
         width: 80%;
     }
-    .texto-imagen__dm{
+
+    .texto-imagen__pr{
+        top: 150px;
+        left: 40px;
+        width: 80%;
+    }
+
+    .texto-imagen__dm, .texto-imagen__dm__{
         top: 190px;
         left: 40px;
         width: 80%;
     }
-    .texto-imagen__dm h2, .texto-imagen h2{
+
+    .texto-imagen__dm h2, .texto-imagen h2, .texto-imagen__dm__ h2, .texto-imagen__pr h2{
         font-size: 25px;
     }
 
@@ -375,6 +426,72 @@ div .effect-service:hover{
 
 }
 
+
+
+@media screen and (min-width: 500px) and (max-width: 767px) {
+    .effect-service{
+        width: 345px;
+        left: 105px;
+    }
+    
+    .effect-service:hover{
+        width: 345px;
+        color: #e91327;
+    }
+
+    .img-disney, .img-disney__dm {
+        width: 330px;
+        height: 220px;
+    }
+
+    .texto-imagen, .texto-imagen__dm, .texto-imagen__dm__ , .texto-imagen__pr{
+        top: 173px;
+        left: 35px;
+        width: 80%;
+    }
+    .texto-imagen__dm h2, .texto-imagen h2, .texto-imagen__dm__ h2, .texto-imagen__pr h2 {
+        font-size: 20px;
+    }
+
+    .img-responsive{
+        height: auto !important;
+        width: 320px;
+    }
+
+    .texto-titulos{
+        font-size: 40px;
+    }
+
+    .texto-parrafos{
+        font-size: 20px;
+    }
+
+    .pogoSlider-nav li{
+        margin: 0 6px !important;
+    }
+    
+    .title-box h2{
+        font-size: 58px;
+    }
+
+    #contact{
+        margin-top: 60px;
+        margin-bottom: 29px;
+    }
+
+    .left-contact{
+        margin-top: 50px;
+    }
+
+    #more {display: none;}
+}
+
+
+
+
+
+
+
 @media screen and (min-width: 600px) and (max-width: 768px) {
     .effect-service{
         width: 345px;
@@ -387,7 +504,7 @@ div .effect-service:hover{
 
     .img-disney, .img-disney__dm {
         width: 330px;
-        height: auto;
+        height: 192px;
     }
 
     .texto-imagen{
@@ -395,12 +512,13 @@ div .effect-service:hover{
         left: 35px;
         width: 80%;
     }
-    .texto-imagen__dm{
-        top: 170px;
+
+    .texto-imagen__dm, .texto-imagen__dm__ , .texto-imagen__pr{
+        top: 145px;
         left: 35px;
         width: 80%;
     }
-    .texto-imagen__dm h2, .texto-imagen h2{
+    .texto-imagen__dm h2, .texto-imagen h2, .texto-imagen__dm__ h2, .texto-imagen__pr h2 {
         font-size: 20px;
     }
 
